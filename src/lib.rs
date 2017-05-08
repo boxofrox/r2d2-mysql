@@ -49,7 +49,6 @@
 #![crate_type="dylib"]
 
 extern crate mysql;
-extern crate rustc_serialize as serialize;
 extern crate r2d2;
 
 pub mod pool;
